@@ -25,7 +25,7 @@ var geocodeAddress = (address) => {
 	});
 }
 
-geocodeAddress("470 Oak Grove Dr").then((location) => {
+geocodeAddress("Santa Clara").then((location) => {
 	console.log(JSON.stringify(location, undefined, 2));
 }).catch((errorMessage) => {
 	console.log(errorMessage);
